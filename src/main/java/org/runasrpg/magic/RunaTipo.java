@@ -1,4 +1,8 @@
 package org.runasrpg.magic;
 
-public class RunaTipo {
+public enum RunaTipo {
+    ELEMENTO,
+    FORMA,
+    MODIFICADOR,
+    ESPECIAL
 }

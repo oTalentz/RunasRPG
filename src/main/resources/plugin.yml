@@ -1,0 +1,48 @@
+name: RunasRPG
+version: 1.0
+main: org.runasrpg.Main
+api-version: 1.8
+author: SeuNomeAqui
+
+commands:
+  magia:
+    description: Abre a interface de criação de magias com runas.
+    usage: /magia
+    permission: runasrpg.magia
+
+  cast:
+    description: Executa uma magia criada pelo jogador.
+    usage: /cast <nome>
+    permission: runasrpg.cast
+
+  castgui:
+    description: Interface gráfica para lançar magias.
+    usage: /castgui
+    permission: runasrpg.castgui
+
+  minhasmagias:
+    description: Lista todas as magias criadas.
+    usage: /minhasmagias
+    permission: runasrpg.minhasmagias
+
+  reloadrunas:
+    description: Recarrega as runas do sistema.
+    usage: /reloadrunas
+    permission: runasrpg.admin.reload
+
+  listarrunas:
+    description: Lista todas as runas registradas.
+    usage: /listarrunas
+
+  desbloquearruna:
+    description: Desbloqueia uma runa pelo ID.
+    usage: /desbloquearruna <id>
+
+  grimorio:
+    description: Dá um grimório da runa desejada.
+    usage: /grimorio <id>
+    permission: runasrpg.admin.grimorio
+
+  runasrpg:
+    description: Mostra a ajuda com os comandos do RunasRPG.
+    usage: /runasrpg help
